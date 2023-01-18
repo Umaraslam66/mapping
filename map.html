@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2908273167f265f7a0bb1f3fa034813c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2908273167f265f7a0bb1f3fa034813c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2908273167f265f7a0bb1f3fa034813c = L.map(
+                "map_2908273167f265f7a0bb1f3fa034813c",
+                {
+                    center: [60.18023577639618, 24.935596245312343],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a4890d502d9a34bd75a7325d9fe0425 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2908273167f265f7a0bb1f3fa034813c);
+        
+    
+            var marker_cd72130b48fec448e65490267f86cf64 = L.marker(
+                [60.16103008178952, 24.921588879761245],
+                {}
+            ).addTo(map_2908273167f265f7a0bb1f3fa034813c);
+        
+    
+            var icon_af4dcb7f0e74071cd58ec3ece4bc60ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_cd72130b48fec448e65490267f86cf64.setIcon(icon_af4dcb7f0e74071cd58ec3ece4bc60ff);
+        
+    
+        var popup_4436a80fba2a2ed44e98cd62312f1001 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e717e022d6fae8cd10653b627480827 = $(`<div id="html_3e717e022d6fae8cd10653b627480827" style="width: 100.0%; height: 100.0%;"><h1> SuperCell</h1><img src='download.png' width=400px><p>Fast Growing Startup in Finland </p></div>`)[0];
+                popup_4436a80fba2a2ed44e98cd62312f1001.setContent(html_3e717e022d6fae8cd10653b627480827);
+            
+        
+
+        marker_cd72130b48fec448e65490267f86cf64.bindPopup(popup_4436a80fba2a2ed44e98cd62312f1001)
+        ;
+
+        
+    
+    
+            marker_cd72130b48fec448e65490267f86cf64.bindTooltip(
+                `<div>
+                     SUPERCELL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6483014742d9458b75abcc7ca2cfea30 = L.marker(
+                [60.17107046850945, 24.934396840473536],
+                {}
+            ).addTo(map_2908273167f265f7a0bb1f3fa034813c);
+        
+    
+            var icon_bf56879091423d5ad07160fd62337820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6483014742d9458b75abcc7ca2cfea30.setIcon(icon_bf56879091423d5ad07160fd62337820);
+        
+    
+        var popup_a210e7549ac6dff9a5b52528a3eb4cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839e2a2d0eca2f381991fc9a9828a076 = $(`<div id="html_839e2a2d0eca2f381991fc9a9828a076" style="width: 100.0%; height: 100.0%;"><h1> Wolt</h1><img src='wolt.png' width=400px><p>Food Delivery Startup in Finland </p></div>`)[0];
+                popup_a210e7549ac6dff9a5b52528a3eb4cec.setContent(html_839e2a2d0eca2f381991fc9a9828a076);
+            
+        
+
+        marker_6483014742d9458b75abcc7ca2cfea30.bindPopup(popup_a210e7549ac6dff9a5b52528a3eb4cec)
+        ;
+
+        
+    
+    
+            marker_6483014742d9458b75abcc7ca2cfea30.bindTooltip(
+                `<div>
+                     Wolt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_efe9dc35b74e3fdb17edde0a563650fe = L.circle(
+                [60.167475763399366, 24.930193359684512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 900, "stroke": true, "weight": 3}
+            ).addTo(map_2908273167f265f7a0bb1f3fa034813c);
+        
+    
+        var popup_d0ec111823d9046cb9aa6cac15b4c010 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a9cf03567c7efb458dd22f253b9e9f = $(`<div id="html_c7a9cf03567c7efb458dd22f253b9e9f" style="width: 100.0%; height: 100.0%;">Promising Startups in Helsinki</div>`)[0];
+                popup_d0ec111823d9046cb9aa6cac15b4c010.setContent(html_c7a9cf03567c7efb458dd22f253b9e9f);
+            
+        
+
+        circle_efe9dc35b74e3fdb17edde0a563650fe.bindPopup(popup_d0ec111823d9046cb9aa6cac15b4c010)
+        ;
+
+        
+    
+</script>
+</html>
